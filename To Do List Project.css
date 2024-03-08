@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#color_change_white{
+width: 30px;
+height: 30px;
+border-radius: 0.6pc;
+border: 1px solid black;
+color: white;
+}
+
+#color_change_black{
+    width: 30px;
+    height: 30px;
+    border-radius: 0.6pc;
+    border: 1px solid black;
+    color: black;
+    }
+
+
+
+/*Tema Escuro
+
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 100vh;
+}
+
+#central {
+    text-align: center;
+    padding: 20px;
+}
+
+#titulo {
+    font-size: 2pc;
+    color: #f3f3f3;
+}
+
+#texto {
+    border: none;
+    width: 250px;
+    border-radius: 1pc;
+    color: white;
+    background-color: black;
+    padding: 8px; 
+    margin-top: 10px; 
+}
+
+#texto:hover {
+    border: grey solid 0.1px;
+}
+
+#texto:focus {
+    color: white;
+    outline: none;
+}
+
+#texto::placeholder{
+    color: white;
+    opacity: 0.3;
+}
+
+#botao {
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 1pc;
+    padding: 8px 16px; 
+    margin-top: 10px; 
+}
+
+#botao:hover {
+    border: gray solid 0.1px;
+}
+
+#botao:active {
+    background-color: white;
+    color: black;
+}
+
+*/
+
+/*Tema claro*/
+
+body {
+    background-color: White;
+    font-family: 'Courier New', Courier;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 100vh;
+}
+
+#central {
+    text-align: center;
+    padding: 20px;
+}
+
+#titulo {
+    font-size: 2pc;
+    color: black;
+}
+
+#texto {
+    border: none;
+    width: 250px;
+    border-radius: 1pc;
+    color: Black;
+    background-color: white;
+    padding: 8px; 
+    margin-top: 10px; 
+}
+
+#texto:hover {
+    border: grey solid 0.1px;
+}
+
+#texto:focus {
+    color: black;
+    outline: none;
+}
+
+#texto::placeholder{
+    color: black;
+    opacity: 0.3;
+}
+
+#botao {
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 1pc;
+    padding: 8px 16px; 
+    margin-top: 10px; 
+}
+
+#botao:hover {
+    border: gray solid 0.1px;
+}
+
+#botao:active {
+    background-color: black;
+    color: white;
+}
