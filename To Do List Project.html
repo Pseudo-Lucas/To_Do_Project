@@ -11,40 +11,33 @@
 
 
 <body>
+
     <div id="botoes">
         <input type="button" id="color_change_white">
         <input type="button" id="color_change_black">
     </div>
 
     <div id="central">
+
         <h1 id="titulo">To do list.</h1>
         <input type="text" placeholder="Add a task" id="texto">
         <input type="submit" value="I got this!" id="botao">
 
-        <div id="lista">
-            <table border="1">
-                <tr>
-                    <td></td>
-                    <td>Tarefa</td>
-                    <td>Status</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                </tr>
-            </table>
-        </div>
+
+        <table id="lista">
+            <tr>
+                <td id="td_1"></td>
+                <td id="td_2" style="font-weight: bold;">Tarefa</td>
+                <td id="td_3" style="font-weight: bold;">Status</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Limpar a casa</td>
+                <td> <input type="button" id="check_button" value="✓"> </td>
+                <td> <input type="button" id="delete_button" value="✖"> </td>
+            </tr>
+        </table>
+
     </div>
 </body>
 

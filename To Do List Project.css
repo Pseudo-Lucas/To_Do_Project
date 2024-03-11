@@ -6,6 +6,7 @@
 }
 
 /*Botões para mudar temas claro e escuro*/
+
 #botoes {
     position: fixed;
     top: 150px;
@@ -57,8 +58,7 @@
 }
 
 
-/*Tema Escuro
-
+/*Tema Escuro*/
 body {
     background-color: black;
     font-family: 'Courier New', Courier;
@@ -66,6 +66,7 @@ body {
     justify-content: center;    
     align-items: center;
     height: 100vh;
+    color: white;
 }
 
 #central {
@@ -120,9 +121,47 @@ body {
     color: black;
 }
 
-*/
 
-/*Tema claro*/
+#check_button{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border: 0px;
+    border-radius: 0.9pc;
+    color: white;
+}
+
+#check_button:hover{
+    border: solid 1px white;
+}
+
+#check_button:active{
+    background-color: white;
+    color: black;
+}
+
+#delete_button{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border: 0px;
+    border-radius: 0.9pc;
+    color: white;
+}
+
+#delete_button:hover{
+border: 1px solid white;
+}
+
+#delete_button:active{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+/*Tema claro
 
 body {
     background-color: White;
@@ -185,9 +224,64 @@ body {
     color: white;
 }
 
+#lista{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#check_button{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 0px;
+    border-radius: 0.9pc;
+}
+
+#check_button:hover{
+    border: solid 1px black;
+}
+
+#check_button:active{
+    background-color: black;
+    color: white;
+}
+
+#delete_button{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 0px;
+    border-radius: 0.9pc;
+}
+
+#delete_button:hover{
+border: 1px solid black;
+}
+
+#delete_button:active{
+    background-color: black;
+    color: white;
+}*/
+
+
 
 /*Lista de tarefas*/
 
-#lista{
-    margin-top: 50px;
+td{
+    height: 40px;
+}
+
+#td_1{
+
+}
+
+#td_2{
+width: 300px;
+
+}
+
+#td_3{
+width: 80px;
+
 }
