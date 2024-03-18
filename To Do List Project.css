@@ -8,7 +8,7 @@
 /*Botões para mudar temas claro e escuro*/
 
 #botoes {
-    position: fixed;
+    position: absolute;
     top: 150px;
     right: 300px;
 }
@@ -81,7 +81,7 @@ body {
 
 #texto {
     border: none;
-    width: 250px;
+    width: 260px;
     border-radius: 1pc;
     color: white;
     background-color: black;
@@ -267,6 +267,9 @@ border: 1px solid black;
 
 
 /*Lista de tarefas*/
+table{
+    margin-top: 25px;
+}
 
 td{
     height: 40px;
@@ -285,3 +288,4 @@ width: 300px;
 width: 80px;
 
 }
+
